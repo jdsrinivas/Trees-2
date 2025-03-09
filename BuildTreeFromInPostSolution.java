@@ -13,6 +13,9 @@
  * }
  * }
  */
+// Time Complexity :O(n)
+// Space Complexity :O(n)
+// Did this code successfully run on Leetcode :Yes
 class BuildTreeFromInPostSolution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if (postorder == null || postorder.length == 0 || inorder == null || inorder.length == 0) {
